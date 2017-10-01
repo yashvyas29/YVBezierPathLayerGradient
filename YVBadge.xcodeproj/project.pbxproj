@@ -12,6 +12,8 @@
 		22DF90361F80EA550006FE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DF90341F80EA550006FE0F /* Main.storyboard */; };
 		22DF90381F80EA550006FE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DF90371F80EA550006FE0F /* Assets.xcassets */; };
 		22DF903B1F80EA550006FE0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DF90391F80EA550006FE0F /* LaunchScreen.storyboard */; };
+		22DF90481F80EBEB0006FE0F /* YVBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF90471F80EBEB0006FE0F /* YVBadgeView.swift */; };
+		22DF904A1F8113C50006FE0F /* YVExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DF90491F8113C50006FE0F /* YVExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		22DF90371F80EA550006FE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DF903A1F80EA550006FE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22DF903C1F80EA550006FE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DF90471F80EBEB0006FE0F /* YVBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YVBadgeView.swift; sourceTree = "<group>"; };
+		22DF90491F8113C50006FE0F /* YVExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YVExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,56 @@
 		22DF902F1F80EA550006FE0F /* YVBadge */ = {
 			isa = PBXGroup;
 			children = (
-				22DF90301F80EA550006FE0F /* AppDelegate.swift */,
-				22DF90321F80EA550006FE0F /* ViewController.swift */,
-				22DF90341F80EA550006FE0F /* Main.storyboard */,
-				22DF90371F80EA550006FE0F /* Assets.xcassets */,
-				22DF90391F80EA550006FE0F /* LaunchScreen.storyboard */,
+				22DF90461F80EBCB0006FE0F /* Views */,
+				22DF90421F80EB6A0006FE0F /* Common */,
+				22DF90431F80EB870006FE0F /* Controllers */,
+				22DF90441F80EB960006FE0F /* Storyboards */,
+				22DF90451F80EBB40006FE0F /* Resources */,
 				22DF903C1F80EA550006FE0F /* Info.plist */,
 			);
 			path = YVBadge;
+			sourceTree = "<group>";
+		};
+		22DF90421F80EB6A0006FE0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				22DF90301F80EA550006FE0F /* AppDelegate.swift */,
+				22DF90491F8113C50006FE0F /* YVExtensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		22DF90431F80EB870006FE0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22DF90321F80EA550006FE0F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22DF90441F80EB960006FE0F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				22DF90391F80EA550006FE0F /* LaunchScreen.storyboard */,
+				22DF90341F80EA550006FE0F /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		22DF90451F80EBB40006FE0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22DF90371F80EA550006FE0F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22DF90461F80EBCB0006FE0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				22DF90471F80EBEB0006FE0F /* YVBadgeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +182,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DF904A1F8113C50006FE0F /* YVExtensions.swift in Sources */,
+				22DF90481F80EBEB0006FE0F /* YVBadgeView.swift in Sources */,
 				22DF90331F80EA550006FE0F /* ViewController.swift in Sources */,
 				22DF90311F80EA550006FE0F /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YVBadge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yash.YVBadge;
@@ -289,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = YVBadge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yash.YVBadge;
