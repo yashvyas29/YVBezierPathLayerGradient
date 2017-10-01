@@ -1,0 +1,6 @@
+framework module YVBezierPathLayerGradient {
+  umbrella header "YVBezierPathLayerGradient-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8404EC5C3E5A6E0916B44CA5 /* Pods_YVBezierPathLayerGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVBezierPathLayerGradient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85F1B6440859E9098F5C6809 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AF57A29492CA82F19F786856 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		85F1B6440859E9098F5C6809 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AF57A29492CA82F19F786856 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B1D2D1E8E9DE10AC775DE5B0 /* Pods-YVBezierPathLayerGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVBezierPathLayerGradient_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YVBezierPathLayerGradient_Example/Pods-YVBezierPathLayerGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9EB20B2A56765D3A2F3D128 /* Pods-YVBezierPathLayerGradient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YVBezierPathLayerGradient_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YVBezierPathLayerGradient_Example/Pods-YVBezierPathLayerGradient_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E817541943C401674693EA07 /* YVBezierPathLayerGradient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YVBezierPathLayerGradient.podspec; path = ../YVBezierPathLayerGradient.podspec; sourceTree = "<group>"; };
+		E817541943C401674693EA07 /* YVBezierPathLayerGradient.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YVBezierPathLayerGradient.podspec; path = ../YVBezierPathLayerGradient.podspec; sourceTree = "<group>"; };
 		FA2C7FC3C31C06864CA633A7 /* Pods_YVBezierPathLayerGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVBezierPathLayerGradient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +69,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22DF904B1F8138FE0006FE0F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		22DF904C1F81391B0006FE0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		22DF904D1F8139320006FE0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4BFFD0E657A60BB0BF312B5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,11 +139,9 @@
 		607FACD21AFB9204008FA782 /* Example for YVBezierPathLayerGradient */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				22DF904B1F8138FE0006FE0F /* Common */,
+				22DF904C1F81391B0006FE0F /* Controllers */,
+				22DF904D1F8139320006FE0F /* Resources */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for YVBezierPathLayerGradient";
@@ -506,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YVBezierPathLayerGradient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -520,6 +545,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YVBezierPathLayerGradient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

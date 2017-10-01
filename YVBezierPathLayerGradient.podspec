@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YVBezierPathLayerGradient'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YVBezierPathLayerGradient.'
+  s.summary          = 'YVBezierPathLayerGradient is used to create a badge view.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: YVBezierPathLayerGradient is a custom view library created for applying gradient, create shape, mask and outline.
                        DESC
 
-  s.homepage         = 'https://github.com/Yash Vyas/YVBezierPathLayerGradient'
+  s.homepage         = 'https://github.com/yashvyas29/YVBezierPathLayerGradient'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yash Vyas' => 'yash.vyas.29@gmail.com' }
-  s.source           = { :git => 'https://github.com/Yash Vyas/YVBezierPathLayerGradient.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yashvyas29/YVBezierPathLayerGradient.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'YVBezierPathLayerGradient/Classes/**/*'
   

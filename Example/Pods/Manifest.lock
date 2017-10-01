@@ -1,0 +1,16 @@
+PODS:
+  - YVBezierPathLayerGradient (0.1.0)
+
+DEPENDENCIES:
+  - YVBezierPathLayerGradient (from `../`)
+
+EXTERNAL SOURCES:
+  YVBezierPathLayerGradient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YVBezierPathLayerGradient: e869b15aecf050d741f94c31563f1711be3ef1b8
+
+PODFILE CHECKSUM: 888cdf49364ed77cb3ff815e5f645c93f331d8b8
+
+COCOAPODS: 1.3.1
