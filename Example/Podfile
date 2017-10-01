@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YVBezierPathLayerGradient_Example' do
+  pod 'YVBezierPathLayerGradient', :path => '../'
+
+  target 'YVBezierPathLayerGradient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
