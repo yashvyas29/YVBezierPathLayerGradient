@@ -21,6 +21,7 @@ import UIKit
     // MARK: - IBOutlet
     @IBOutlet weak var lblBadgeName: UILabel?
     @IBOutlet weak var badgeLabelViewHeight: NSLayoutConstraint?
+    @IBOutlet weak var imgVwBadgeIcon: UIImageView?
     
     // MARK: - Properties
     var gradientViewHeightMultiplier: CGFloat = 0.85
