@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: YVBezierPathLayerGradient is a custom view library created for applying gradient, create shape, mask and outline.
                        DESC
 
-  s.homepage         = 'https://github.com/yashvyas29/YVBezierPathLayerGradient'
+  s.homepage         = 'https://github.com/yashvyas29/YVBezierPathLayerGradient/tree/pod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yash Vyas' => 'yash.vyas.29@gmail.com' }
