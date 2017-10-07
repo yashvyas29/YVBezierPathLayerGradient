@@ -36,15 +36,15 @@
 		24B548618F8CAD18185E78ADF6E87DB1 /* Pods-YVBezierPathLayerGradient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVBezierPathLayerGradient_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2A12ABCA74FB16C4BAE1575BFF8F8165 /* Pods-YVBezierPathLayerGradient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVBezierPathLayerGradient_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3B5C1B3DA2CA2239552B1897DB332A65 /* Pods-YVBezierPathLayerGradient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YVBezierPathLayerGradient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		480A81C3ED7E93661513726D20E142F3 /* YVBezierPathLayerGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YVBezierPathLayerGradient.modulemap; sourceTree = "<group>"; };
+		480A81C3ED7E93661513726D20E142F3 /* YVBezierPathLayerGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YVBezierPathLayerGradient.modulemap; sourceTree = "<group>"; };
 		48447D7AB7BB7C0644CDBA242B706243 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5162D61D8E1DB5E79B82AFB9969622B6 /* Pods-YVBezierPathLayerGradient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YVBezierPathLayerGradient_Tests.modulemap"; sourceTree = "<group>"; };
+		5162D61D8E1DB5E79B82AFB9969622B6 /* Pods-YVBezierPathLayerGradient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YVBezierPathLayerGradient_Tests.modulemap"; sourceTree = "<group>"; };
 		642C46AC3FFF295E902186FEF631DA1D /* Pods-YVBezierPathLayerGradient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YVBezierPathLayerGradient_Example-dummy.m"; sourceTree = "<group>"; };
 		6492132624FE2331D0E8F1289BF0A7C8 /* YVBezierPathLayerGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YVBezierPathLayerGradient-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6897C0B90091865B298F02C9E9DBB293 /* Pods-YVBezierPathLayerGradient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVBezierPathLayerGradient_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73F2DA96D2D434530ED8838353BBF2E4 /* YVBezierPathLayerGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YVBezierPathLayerGradient-umbrella.h"; sourceTree = "<group>"; };
-		74B8D244448EA1BC5DE19B4C51F27145 /* Pods_YVBezierPathLayerGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YVBezierPathLayerGradient_Example.framework; path = "Pods-YVBezierPathLayerGradient_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B8D244448EA1BC5DE19B4C51F27145 /* Pods_YVBezierPathLayerGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVBezierPathLayerGradient_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D393164F2B7511756432C9355F1F405 /* Pods-YVBezierPathLayerGradient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YVBezierPathLayerGradient_Example-umbrella.h"; sourceTree = "<group>"; };
 		8022F6AED2EC276207BEBFD0DDD6F0C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8323ABE9ED4E716377E035A04890EA5D /* Pods-YVBezierPathLayerGradient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YVBezierPathLayerGradient_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -52,17 +52,17 @@
 		85A1FB235AB04326D7C89CBFCA36FB4B /* Pods-YVBezierPathLayerGradient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVBezierPathLayerGradient_Tests-resources.sh"; sourceTree = "<group>"; };
 		8CE132F62973444540887ED9456C115D /* Pods-YVBezierPathLayerGradient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YVBezierPathLayerGradient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E5F06FA94ADC5BD0A3423292909392F /* Pods-YVBezierPathLayerGradient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVBezierPathLayerGradient_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		980BFBB1006B8E3B8776CE9A7BE2B174 /* YVExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YVExtensions.swift; path = YVBezierPathLayerGradient/Classes/YVExtensions.swift; sourceTree = "<group>"; };
 		A406EC3E3E160658F4FB09772611E2FA /* YVBezierPathLayerGradient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YVBezierPathLayerGradient.xcconfig; sourceTree = "<group>"; };
-		A615D27A78817C6C77BAD43E72818E11 /* YVBezierPathLayerGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YVBezierPathLayerGradient.framework; path = YVBezierPathLayerGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A615D27A78817C6C77BAD43E72818E11 /* YVBezierPathLayerGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YVBezierPathLayerGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A672CB0AF3906EA6722761CE9DB74754 /* Pods-YVBezierPathLayerGradient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVBezierPathLayerGradient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF4D70B9A8B4BE25D58E259530B53165 /* YVBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YVBadgeView.swift; path = YVBezierPathLayerGradient/Classes/YVBadgeView.swift; sourceTree = "<group>"; };
 		CBEB828B0E7AEB23615A744A6A93FC06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D177C6C861ED8F96D51A95CE97030FA3 /* Pods-YVBezierPathLayerGradient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YVBezierPathLayerGradient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EDD89B27AAD3973EDC0C49F3524F7949 /* Pods-YVBezierPathLayerGradient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YVBezierPathLayerGradient_Example.modulemap"; sourceTree = "<group>"; };
+		EDD89B27AAD3973EDC0C49F3524F7949 /* Pods-YVBezierPathLayerGradient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YVBezierPathLayerGradient_Example.modulemap"; sourceTree = "<group>"; };
 		F18870ADC50CC6888DF8072515A23ADC /* Pods-YVBezierPathLayerGradient_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YVBezierPathLayerGradient_Example-resources.sh"; sourceTree = "<group>"; };
-		F3BBE72CEC11832A8606D8D4B9341094 /* Pods_YVBezierPathLayerGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YVBezierPathLayerGradient_Tests.framework; path = "Pods-YVBezierPathLayerGradient_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BBE72CEC11832A8606D8D4B9341094 /* Pods_YVBezierPathLayerGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YVBezierPathLayerGradient_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBDBE7A3F5CA7564878C3B9D9F8791E8 /* Pods-YVBezierPathLayerGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YVBezierPathLayerGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -298,7 +298,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -542,6 +542,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
